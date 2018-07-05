@@ -137,6 +137,7 @@
                     firebase.database().ref("/contact/" + user.uid).set({
                         email: value
                     });
+                    alert("Send successful")
                 } else {
                     alert("Invalid email: " + value);
                 }
